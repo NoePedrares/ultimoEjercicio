@@ -24,3 +24,25 @@ ul {
     grid-area: 0;
     transition: 0.5s;
 }
+
+ul li {
+    position: relative;
+    list-style: none;
+    width: 450px;
+    height: 100px;
+    padding: 15px;
+    background: #dbdbdb;
+    gap: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 6px;
+    box-shadow: 0 -15px 25px rgba(0,0,0,0.25);
+    transition: 0.5s;
+    transition-delay: calc(var(--i) * 0.5s);
+}
+
+ul li img {
+    max-width: 70px;
+    border-radius: 4px;
+}
